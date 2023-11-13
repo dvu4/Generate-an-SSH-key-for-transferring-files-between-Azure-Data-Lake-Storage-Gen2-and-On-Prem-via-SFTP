@@ -73,4 +73,6 @@ ssh-r
 - Save the passphrase in Key Vault `prodfixdspmafoseus2kv02` as `pmafos-key-passphrase`:
   - `az keyvault secret set --name pmafos-key-passphrase --vault-name prodfixdspmafoseus2kv02 --file ssh_pass_phrase --description "Save SSH Passphrase"`
 
+##
+
 ![Key Vault](./images/adf-keyvault-10.png)
