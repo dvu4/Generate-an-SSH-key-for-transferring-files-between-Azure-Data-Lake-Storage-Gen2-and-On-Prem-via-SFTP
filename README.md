@@ -36,6 +36,8 @@ DEK-Info: AES-128-CBC,02658F6FDCCF632846D715E889E40252
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+pNQ1M0VQQp3JVcDw== user@myserver.myorganization.com
 ```
 
+![Key Vault](./images/ssh-key.png)
+
 ## Step 3: Grant login access to users
 
 - Run: `cat id_rsa.pub >> authorized_keys`
