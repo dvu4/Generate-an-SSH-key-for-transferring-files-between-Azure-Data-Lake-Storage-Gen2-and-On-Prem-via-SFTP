@@ -41,6 +41,18 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+pNQ1M0VQQp3JVcDw== user@myserver.myorgan
 - Run: `cat id_rsa.pub >> authorized_keys`
 - After adding the public key, `authorized_keys` will be updated.
 
+`authorized_keys` example:
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQpR0doZDeD0GfnkuH maghagt5@IT-MDR-AGHAGO.local
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAFumnX3lmw== ctbro@hpll01
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAUcl0Js7 jkapalu2@ECO-MCH-JKAPALU.local
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAeMDz+w35B jkapalu2@aamddsvpf1la001
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABA+0WSfuk= jchensn@MER-LDR-CHENJUS
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQAjtWjk= rleezh@ECO-MCH-RYANLEE.local
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDrrXk= jchensn@MER-LDR-CHENJUS
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAbpCT1jE= dvuiw@RPU-DVUIW-9VLH
+ssh-r
+
 ## Step 4: Copy private key `id_rsa` to local machine
 
 - Open a new terminal
